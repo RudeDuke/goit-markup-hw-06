@@ -701,11 +701,7 @@ body {
 
   width: 408px;
   min-height: 584px;
-
-  padding-top: 15px;
-  padding-bottom: 33px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 24px;
 
   background-color: var(--modal-bg-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -755,11 +751,11 @@ body {
   color: var(--main-titles-color);
 }
 
-.modal-field {
+/*  ------------------ [MODAL INPUTS] ------------------ */
+
+.modal-input-field {
   margin-bottom: 8px;
 }
-
-/*  ------------------ [MODAL INPUTS] ------------------ */
 
 .modal-input-line-wrapper {
   position: relative;
@@ -789,7 +785,8 @@ body {
 }
 
 .modal-input-title {
-  margin-bottom: 2px;
+  display: block;
+  margin-bottom: 4px;
   font-size: var(--basic-input-font-size);
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -804,6 +801,10 @@ body {
 }
 
 /*  ------------------ [MODAL COMMENT FIELD] ------------------ */
+
+.modal-comment-field {
+  margin-bottom: 16px;
+}
 
 .modal-comment-area {
   width: 100%;
